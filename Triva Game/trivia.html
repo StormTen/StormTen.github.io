@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css" </head>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+
+    <body>
+        <div id="Header">
+            <h1>Welcome to Trivia</h1>
+        </div>
+        <div id="MenuArea">
+            Please Select a Category, Difficulty and the number of questions. Then hit the submit button.<br><br> Categoty:
+            <select id="CatMenu">
+                <option value =''>Any Category</option>
+                <option value='&category=9'>General Knowledge</option>
+                <option value='&category=17'>Science & Nature</option>
+                <option value='&category=20'>Mythology</option>
+                <option value='&category=21'>Sports</option>
+                <option value='&category=22'>Geology</option>
+                <option value='&category=23'>History</option>
+                <option value='&category=24'>Poltics</option>
+                <option value='&category=25'>Art</option>
+                <option value='&category=27'>Animals</option>
+                <option value='&category=10'>Entertianment: Books</option>
+                <option value='&category=11'>Entertianment: Film</option>
+                <option value='&category=12'>Entertianment: Music</option>
+                <option value='&category=14'>Entertianment: TV</option>
+                <option value='&category=15'>Entertianment: Video Games</option>
+                <option value='&category=16'>Entertianment: Borad Games</option>
+                <option value='&category=29'>Entertianment: Comics</option>
+                <option value='&category=18'>Science: Computers</option>
+                <option value='&category=30'>Science: Gadgets</option>
+                <option value='&category=19'>Science: Mathimatics</option>
+            </select> Difficulty: <select id="DiffMenu">
+                <option value=''>Any Difficulty</option>
+                <option value="&Difficuly=Easy">Easy</option>
+                <option value="&Difficuly=Medium">Medium</option>
+                <option value="&Difficuly=Hard">Hard</option>
+            </select> Number of Questions: <select id="NumMenu">
+                <option value='3'>3</option>
+                <option value='4'>4</option>
+                <option value='5'>5</option>
+                <option value='6'>6</option>
+                <option value='7'>7</option>
+                <option value='8'>8</option>
+                <option value='9'>9</option>
+                <option value='10'>10</option>
+                <option value='11'>11</option>
+                <option value='12'>12</option>
+                <option value='13'>13</option>
+                <option value='14'>14</option>
+                <option value='15'>15</option>
+                <option value='16'>16</option>
+                <option value='17'>17</option>
+                <option value='18'>18</option>
+                <option value='19'>19</option>
+                <option value='20'>20</option>
+            </select>
+            <br><button onclick="getUserSelect()">Submit</button>
+        </div>
+        <div id="questionArea">
+            <p id="question1"></p>
+            <div class="button" id="answer1" onclick="checkAnswer(this)" value=""></div>
+            <div class="button" id="answer2" onclick="checkAnswer(this)" value=""></div>
+            <div class="button" id="answer3" onclick="checkAnswer(this)" value=""></div>
+            <div class="button" id="answer4" onclick="checkAnswer(this)" value=""></div>
+            <h3 id="score">Score: 0</h3>
+        </div>
+        <div id="playAgain">
+            Would you like to play again?<br>
+            <button id="yesButton" onclick="playAgain(this)" value="yes">Yes</button>
+            <button id="noButton" onclick="playAgain(this)" value="no">No</button>
+        </div>
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>

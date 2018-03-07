@@ -1,0 +1,207 @@
+html {
+	margin: 0;
+	padding: 0;
+  font-family: "Calibri",sans-serif;
+	}
+body { 
+	font: 25px;
+	color: #Ffffff; 
+	background-image: url(/Images/back222.jpg) ; 
+    background-position: center;
+    margin: 0; 
+	padding: 0;
+	}
+nav {
+  background-color: #054764;
+  position: fixed;
+  padding: 0px;
+  text-align: center;
+  width: 120px;
+  height:100%
+
+  
+  
+}
+.active{
+  background-color: #358cb9;
+  color: #68FF8B;
+  padding: 3px;
+}
+nav a{
+  
+  text-decoration: none;
+  font-size: 25px;
+  padding: 5px;
+  margin 0px;
+  color:#68FF8B;
+  font-weight: bold;
+  
+}
+nav ul{
+  margin:0;
+  padding: 0;
+}
+nav li{
+ 
+ margin: 10px 0px;
+ 
+  
+}
+
+header div{
+font-size: x-large;
+  padding: 60px;
+  text-align: center;
+  margin-left: 150px;
+  
+  
+}
+nav a:hover{
+  background-color: #397c9a;
+  padding: 5px;
+}
+#meimg{
+  height: inherit;
+  width: inherit;
+  float: right;
+  margin: 0px 50px;
+}
+#intro{
+  text-align: center;
+  height: inherit;
+  width: inherit;
+  margin: 50px 350px 50px 150px;
+  background-color: #397C9A; 
+}
+
+footer{
+  color:#68FF8B;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  
+  background-color: #054764;
+  
+ 
+}
+#mainfoot{
+  bottom: 0;
+  position: absolute;
+  clear: both;
+  width: 100%;
+  color:#68FF8B;
+  background-color: #054764;
+}
+#content{
+  position: relative;
+}
+#links{
+display: flex;
+justify-content: center;
+}
+#links table{
+align-self: center;
+}
+
+
+#links table td{
+  padding: 10px;
+ text-align: center;
+  
+}
+#links a:hover{
+  background-color: none;
+  
+}
+#links a{
+  background-color:none;
+}
+#jobinfo  {
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 50px;
+  background-color: #397C9A;
+}
+#jobimg{
+  text-align:center;
+  margin-left: 150px;
+}
+#marriedimg  {
+  text-align: center;
+  margin-left: 150px;
+  
+}
+#marriedinfo{
+  text-align: center;
+  margin-right: 50px;
+  margin-left: 150px;
+  background-color: #397C9A;
+  
+}
+#childreninfo  {
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 50px;
+  background-color: #397C9A;
+}
+#childrenimg{
+  text-align: center;
+  margin-left: 150px;
+}
+#oldimg  {
+  text-align: center;
+  margin-left: 150px;
+}
+#oldinfo{
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 50px;
+  background-color: #397C9A;
+}
+
+#techul{
+  margin-left: 150px;
+  display: inline-block;
+  font-size: x-large;
+  background-color: #397C9A;
+  padding: 30px;
+}
+#flash{
+  margin-left: 150px;
+  text-align: right;
+  display: inline-block;
+  float: left;
+ 
+}
+#nontechp{
+ 
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    margin-top: 30px;
+    display: inline-block;
+   float: right;
+    width: 700px;
+  padding: 30px;
+  background-color: #397C9A;
+}
+
+#nontechtb{
+  float: left;
+  margin-left: 150px;
+  display: inline-block;
+  clear: right;
+  background-color: #397C9A;
+  color: #68FF8B;
+  padding: 5px;
+  
+  
+}
+#nontechtb td, th{
+  padding: 15px;
+ 
+}
+#nontechplane{
+  text-align: center;
+  margin-left: 150px;
+}

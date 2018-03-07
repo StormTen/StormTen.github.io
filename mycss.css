@@ -1,0 +1,26 @@
+body {
+  font-size: 30px;
+  color: #ED6A5A;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #393D3F;
+}
+#info{
+  padding: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: #6AE2D4;
+  box-shadow: 15px 15px 10px #27534E;
+  font-size: 20px;
+}
+#title{
+  margin: 100px;
+  color: #E3B505;
+}
+#instructions{
+  margin: 10px;
+  color: #E3B505;
+}
+#joshua input{
+  visibility: hidden;
+}

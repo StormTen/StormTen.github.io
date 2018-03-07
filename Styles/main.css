@@ -1,0 +1,181 @@
+html {
+	margin: 0;
+	padding: 0;
+  font-family: sans-serif;
+	}
+body { 
+	font: 16px;
+	color: #449dd1; 
+	background: #363534 ; 
+	margin: 0; 
+	padding: 0;
+	}
+nav {
+  background-color: #848c8E;
+  position: fixed;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+  
+}
+.active{
+  background-color: #78c0e0;
+  color: #363534;
+  padding: 21px;
+}
+nav a{
+  
+  text-decoration: none;
+  font-size: 30px;
+  padding: 5px;
+  margin: 0px;
+  color: #150578;
+  font-weight: bold;
+  
+}
+nav li{
+  display: inline;
+  padding: 10px;
+  
+}
+
+header div{
+
+  padding: 60px;
+  text-align: center;
+  
+}
+nav a:hover{
+  background-color: #B0B5B7;
+  padding: 21px;
+}
+#meimg{
+  height: inherit;
+  width: inherit;
+  float: left;
+  margin: 0px 50px;
+}
+#intro{
+  text-align: center;
+  height: inherit;
+  width: inherit;
+  margin: 0px 20px;
+}
+footer{
+  color: #150578;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  
+  background-color: #848c8E;
+  
+ 
+}
+#mainfoot{
+  bottom: 0;
+  position: absolute;
+  clear: both;
+  width: 100%;
+   color: #150578;
+  background-color: #848c8E;
+}
+#content{
+  position: relative;
+}
+#links{
+display: flex;
+justify-content: center;
+}
+#links table{
+align-self: center;
+}
+
+
+#links table td{
+  padding: 10px;
+ text-align: center;
+  
+}
+#links a:hover{
+  background-color: none;
+  
+}
+#links a{
+  background-color:none;
+}
+#jobinfo  {
+  text-align: center;
+  margin: 0px 50px 0px 330px;
+}
+#jobimg{
+  margin:50px;
+}
+#marriedimg  {
+  text-align: right;
+  margin: 0px 50px 0px 330px;
+}
+#marriedinfo{
+  text-align: center;
+  margin:0px 330px 0px 50px;
+}
+#childreninfo  {
+  text-align: center;
+  margin: 0px 50px 0px 330px;
+}
+#childrenimg{
+  margin:50px;
+}
+#oldimg  {
+  text-align: right;
+  margin: 0px 50px 0px 330px;
+}
+#oldinfo{
+  text-align: center;
+  margin:0px 330px 0px 50px;
+}
+#intrests{
+  
+ 
+  
+}
+#techul{
+  margin:50px;
+  display: inline-block;
+      font-size: x-large;
+}
+#flash{
+  margin:50px ;
+  text-align: right;
+  display: inline-block;
+  float: right;
+ 
+}
+#nontechp{
+ 
+      margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: inline-block;
+   float: left;
+    width: 700px;
+}
+
+#nontechtb{
+  float: right;
+  margin: 0px 30px 0px 30px;
+  display: inline-block;
+  clear: right;
+}
+#nontechplane{
+  text-align: center;
+}
+.newLinks{
+margin: 10px;
+padding: 3px;
+color: white;
+background-color: blue;
+}
+.linkDiv{
+text-align: center;
+}
