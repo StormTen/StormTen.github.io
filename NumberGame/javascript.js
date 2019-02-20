@@ -11,7 +11,7 @@ function sendData(form) {
   if (guessNum == randNum) {
     document.getElementById("label").innerHTML = "You are correct!!!!!!!!!!!!!!!!!" +"<br>You took " + counter + " total guesses. ";
     document.getElementById("tahdah").play();
-    document.body.style.backgroundImage = 'url(imgs/topgun.gif)';
+    document.body.style.backgroundImage = 'url(Images/topgun.gif)';
     document.getElementById("info").style.backgroundColor = "#6AE2D4";
 
     
@@ -30,24 +30,24 @@ function sendData(form) {
      counter++;
   }else if(guessNum == "Joshua"){
     document.getElementById("label").innerHTML = "GREETING PROFESSER FALKEN, HOW ABOUT A NICE GAME OF CHESS?";
-    document.body.style.backgroundImage = 'url(imgs/tictactoe.gif)';
+    document.body.style.backgroundImage = 'url(Images/tictactoe.gif)';
     document.getElementById("greetings").play();
     
   }else if(guessNum == "List Games"){
     document.getElementById("label").innerHTML = "<ol><li>FALKEN'S MAZE</li><li>BLACK JACK</li><li>GIN RUMMY</li><li>HEARTS</li><li>BRIDGE</li><li>CHECKERS</li><li>CHESS</li><li>POKER</li><li>FIGHTER COMBAT</li><li>GUERRILLA ENGAGEMENT</li><li>DESERT WARFARE</li><li>AIR-TO-GROUND ACTIONS</li><li>THEATERWIDE TACTICAL WARFARE</li><li>THEATERWIDE BIOTOXIC AND CHEMICAL WARFARE</li><li>GLOBAL THERMONUCLEAR WAR</li></ul>";
-    document.body.style.backgroundImage = 'url(imgs/games.gif)';
+    document.body.style.backgroundImage = 'url(Images/games.gif)';
     document.getElementById("games").play();
 
   
     
   }else if(guessNum == "Global Thermonuclear War"){
     document.getElementById("label").innerHTML = "A STRANGE GAME. <br>THE ONLY WINNING MOVE IS NOT TO PLAY.  ";
-    document.body.style.backgroundImage = 'url(imgs/gtnw.gif)';
+    document.body.style.backgroundImage = 'url(Images/gtnw.gif)';
     document.getElementById("gtnw").play();
   
     
   }else{
-    document.body.style.backgroundImage = 'url(imgs/stitch.gif)';
+    document.body.style.backgroundImage = 'url(Images/stitch.gif)';
     document.getElementById("label").innerHTML = "Invalid Input, please try again.";
      counter++;
     document.getElementById("wahwahwah").play();
